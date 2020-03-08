@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="/open-iconic/font/css/open-iconic.css" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
+    <!-- Script -->
+    <script src="script/parallax.js"></script>
+    
+    <link rel="shortcut icon" href="img/favicon.png">
+    <title>Jalu Satria Pratama</title>
+  </head>
+  <body>
+    <a id="button"></a>
+      <!-- Navbar -->
+      <section>
+          <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <!-- <a class="navbar-brand" href="#">
+                    <img src="img/instagram.png" alt="instagram">
+                </a> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">
+                        <span class="menu-icon" style="font-size: 30px;" onclick="openMenu()">&#9776;</span>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+          </div>
+      </section>
+      <!-- End Navbar -->
+
+      <!-- Overlay Menu -->
+      <div class="menu-container" id="sidenavbar">
+        <span class="closebtn" onclick="closeMenu()">&times;</span>
+        <div class="menu-content">
+          <a href="#">HOME</a>
+          <a href="#">BLOG</a>
+          <a href="#">ABOUT</a>
+        </div>
+      </div>
+      <!-- End Overlay Menu -->
+
+      <!-- Home -->
+      <section>
+          <div class="container">
+              <div class="home">
+                  <div class="row">
+                    <div class="col-6">
+                        <div class="identitas">
+                            <h1 class="animated bounceInDown">Jalu Satria Pratama</h1>
+                            <h4 class="animated bounceInDown">Tax Student & Front End Developer</h3>
+                            <div class="socialmedia animated bounceInDown">
+                                <a href="https://github.com/jalusatriiaa" target="_blank"> <img src="img/github.png" style="width: 24px; height: 24px;"></a>
+                                <img src="img/instagram.png" alt="github" style="width: 24px; height: 24px;">
+                                <a href="https://www.facebook.com/PuyoDead" target="_blank"><img src="img/fb.png" alt="github" style="width: 24px; height: 24px;"></a>
+                                <img src="img/twitter.png" alt="github" style="width: 24px; height: 24px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="imgparallax animated fadeInRight" id="homeparallax">
+                            <div class="laptop" data-depth="0.5"><img src="img/laptop.png" style="width: 450px; height: 300px;"></div>                       
+                        </div>
+                    </div>
+                  </div>             
+              </div>
+          </div>
+      </section>
+      <!-- End Home -->
+
+      <!-- About Me -->
+      <section>
+          <div class="container">
+              <div class="about">
+                  <div class="row">
+                      <div class="col-6">
+                          <div class="gambar">
+                              <img src="img/3281755.jpg" alt="">
+                          </div>
+                      </div>
+                      <div class="col-6">
+                         <div class="aboutme">
+                             <h2>Tentang Saya</h2>
+                             <p>Halo, Namaku Jalu Satria Pratama saya seorang mahasiswa jurusan pajak di Politenik Keuangan Negara STAN dan tertarik di dunia programming terutama web development juga menyukai desain grafis.</p>
+                             <h6>Skills :</h6>
+                             <span class="badge badge-pill badge-info">HTML</span>
+                             <span class="badge badge-pill badge-info">CSS</span>
+                             <span class="badge badge-pill badge-info">Javascript</span>
+                             <span class="badge badge-pill badge-info">Photoshop</span>
+                             <span class="badge badge-pill badge-info">Adobe XD</span>
+                             <span class="badge badge-pill badge-info">UI Design</span>
+                             <span class="badge badge-pill badge-info">Technology</span>
+                         </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- End About Me -->
+
+    <!-- Footer -->
+    <section>
+        <div class="container">
+            <div class="footer">
+                <p>Copyright 2020 Jalu Satria Pratama. Illustration by Freepik</p>
+            </div>
+        </div>
+    </section>
+    <!-- End Footer -->
+
+    <!-- Optional JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+        var scene = document.getElementById('homeparallax');
+        var parallaxInstance = new Parallax(scene);
+    </script>
+    <script src="script/script.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

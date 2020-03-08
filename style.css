@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar-brand img{
+    width: 25;
+    height: 25px;
+}
+
+/* Menu */
+.nav-link.menu-icon{
+    position: absolute;
+    color: white;
+    font-size: 50px ;
+    left: 42px;
+    top: 24px;
+    cursor: pointer;
+    z-index: 1;
+}
+.menu-container{
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  transition: 1s ease-in-out;
+}
+.menu-content{
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.menu-content a{
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 300;
+  color: Black;
+  display: block;
+  font-family: Poppins;
+  transition: .3s ease-in-out;
+}
+
+.menu-content a:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu-container .closebtn{
+  position: absolute;
+  top: 36px;
+  right: 48px;
+  font-size: 30px;
+  color: black;
+  z-index: 1;
+  cursor: pointer;
+}
+
+/* Home */
+.identitas{
+    margin-top: 180px;
+}
+
+.identitas h1{
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.identitas h4{
+    margin-top: 10px;
+}
+
+.socialmedia img{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.socialmedia img:hover{
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.imgparallax .keyboard{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+
+.imgparallax .laptop{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+/* About Me */
+
+.aboutme h2{
+    margin-top: 200px;
+    font-family: Roboto;
+}
+
+.aboutme p{
+    font-family: Roboto;
+    margin-top: 20px;
+}
+
+.about .gambar img{
+    margin-top: 170px;
+    width: 540;
+    height: 360px;
+}
+
+
+/* Footer */
+.footer p{
+    margin-top: 50px;
+    text-align: center;
+    font-family: Roboto;
+}
