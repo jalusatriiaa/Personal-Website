@@ -14,8 +14,9 @@ body{
     position: absolute;
     color: white;
     font-size: 50px ;
-    left: 42px;
-    top: 24px;
+    /* left: 42px; */
+    /* top: 24px; */
+    /* margin-left: 20px !important; */
     cursor: pointer;
     z-index: 1;
 }
@@ -116,6 +117,21 @@ body{
     margin-top: 170px;
     width: 540;
     height: 360px;
+}
+
+/* Portofolio */
+.gallery{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery img{
+    border-radius: 10px;
+}
+
+.gallery img:hover{
+    background-color: black;
 }
 
 
