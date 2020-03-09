@@ -9,6 +9,11 @@ body{
     height: 25px;
 }
 
+.sticky-navbar{
+    position: fixed;
+    background-color: black;
+}
+
 /* Menu */
 .nav-link.menu-icon{
     position: absolute;
@@ -16,7 +21,6 @@ body{
     font-size: 50px ;
     /* left: 42px; */
     /* top: 24px; */
-    /* margin-left: 20px !important; */
     cursor: pointer;
     z-index: 1;
 }
@@ -121,7 +125,7 @@ body{
 
 /* Portofolio */
 .gallery{
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
